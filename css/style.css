@@ -25,11 +25,14 @@
     align-items: center;
     cursor: pointer;
     height: 80px;
-    background: skyblue;
+    background:#ac94c4;
+    /*background: skyblue;*/
+   /* background:#a4cbeb;*/
     color: white;
     padding: 10px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 18px;
 
 }
 
@@ -50,7 +53,7 @@ ul li {
 ul li:hover {
     background: white;
     cursor: pointer;
-    color: skyblue;
+    color:#907fb2 ;
     font-weight: bold;
 }
 
@@ -121,7 +124,6 @@ h3 {
     background: #f0eaea;
     width: 450px;
     margin: 15px;
-
 }
 
 .room-top>img {
@@ -148,11 +150,10 @@ h3 {
     margin-bottom: 15px;
 }
 
-
 .room-simple>img {
     width: 300px;
     height: 200px;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 .room-simple>h3 {
@@ -166,6 +167,12 @@ h3 {
 
 .room-simple {
     margin-bottom: 15px;
+}
+
+img:hover{
+    text-shadow: 1px 1px 2px white;
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 /*cores: 
