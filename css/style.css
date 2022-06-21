@@ -2,7 +2,12 @@
     margin: 0px;
     padding: 0px;
     background: whitesmoke;
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
+    font-family: 'Arvo', serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nuosu SIL', serif;
+    ;
 
 }
 
@@ -10,6 +15,7 @@
     width: 1200px;
     margin: 0 auto;
     max-width: 1100px;
+    background-color: #f5f5f5;
 }
 
 
@@ -19,11 +25,11 @@
     align-items: center;
     cursor: pointer;
     height: 80px;
-    background:skyblue;
+    background: skyblue;
     color: white;
-    padding:10px;
+    padding: 10px;
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 
 }
 
@@ -41,7 +47,7 @@ ul li {
     padding: 15px;
 }
 
-ul li:hover{
+ul li:hover {
     background: white;
     cursor: pointer;
     color: skyblue;
@@ -61,8 +67,6 @@ ul li:hover{
 ul {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .navbar .logo {
@@ -76,17 +80,95 @@ ul {
 
 }
 
-span{
+span {
     font-weight: bold;
 }
-.historia{
+
+.historia {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    
+    background: #f0eaea;
+    letter-spacing: 1px;
+    color: #1c2429;
+
 }
 
 .texto {
-   
-    width:800px;
+
+    width: 800px;
 }
+
+.stamp {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #3b484f;
+}
+
+.options-luxurios-rooms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.room-top {
+    background: #f0eaea;
+    width: 450px;
+    margin: 15px;
+
+}
+
+.room-top>img {
+    width: 450px;
+    height: 250px;
+}
+
+.room-top>h3 {
+    margin: 10px;
+    text-align: left;
+}
+
+.room-top>p {
+    margin: 10px;
+}
+
+/*Aqui comeca os quartos simples*/
+
+.box-simple-rooms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f0eaea;
+    margin-bottom: 15px;
+}
+
+
+.room-simple>img {
+    width: 300px;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.room-simple>h3 {
+    margin: 10px;
+    text-align: left;
+}
+
+.room-simple>p {
+    margin: 10px;
+}
+
+.room-simple {
+    margin-bottom: 15px;
+}
+
+/*cores: 
+#f5f5f5;
+#f0eaea 
+*/
